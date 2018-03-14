@@ -1,0 +1,99 @@
+* h1, h2, h3{
+  font-family: 'Anonymous Pro', monospace;
+}
+
+* p {
+  font-family: Arial,Verdana,Helvetica,sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background: #ff7626;
+}
+
+div#container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+header {
+  background: url("./assets/header-bg.jpg") center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0 1 200px;
+}
+
+header h1 {
+  color: #ff7626;
+}
+
+header p {
+  color: white;
+}
+
+main {
+  flex: 1 1 auto;
+  height: 100%;
+}
+
+section {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0;
+  background: rgba(0,0,0,0.2);
+  padding: 3px;
+
+}
+
+article img {
+  height: 100px;
+  width: auto;
+}
+
+article div {
+  display: flex;
+  flex-direction: column;
+}
+
+article h2 {
+  margin: 0 5px;
+}
+
+article p {
+  margin: 5px 5px;
+}
+
+article a {
+  margin: 0 5px;
+  font-family: 'Anonymous Pro', monospace;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 5px auto;
+}
+
+footer {
+  background: #2e0b83;
+  flex: 0 1 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
